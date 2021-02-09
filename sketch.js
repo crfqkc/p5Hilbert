@@ -27,6 +27,8 @@ function setup() {
     path[i].mult(len);
     path[i].add(len / 2, len / 2);
   }
+  
+  noLoop();
 }
 
 function draw() {
