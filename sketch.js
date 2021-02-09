@@ -5,7 +5,7 @@
 // https://youtu.be/dSK-MW-zuAc
 // https://editor.p5js.org/codingtrain/sketches/LPf9PLmp
 
-const order = 8;
+const order = 5;
 let N;
 let total;
 
