@@ -36,7 +36,8 @@ function draw() {
   strokeWeight(1);
   noFill();
   //beginShape();
-  for (let i = 1; i < counter; i++) {
+  //for (let i = 1; i < counter; i++) {
+  for (let i = 1; i < path.length; i++) {
     let h = map(i, 0, path.length, 0, 360);
     stroke(h, 255, 255);
     line(path[i].x, path[i].y, path[i - 1].x, path[i - 1].y);
@@ -45,7 +46,7 @@ function draw() {
 
   counter += 50;
   if (counter >= path.length) {
-    counter = 0;
+    //counter = 0;
   }
 
   // strokeWeight(4);
